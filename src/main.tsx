@@ -16,20 +16,24 @@ export const router = createBrowserRouter([
     element: <RootLayout />,
     children: [
       {
-        path: "/",
+        index: true,
         element: <Home />,
       },
       {
-        path: "/blog/:id",
+        path: "blog/:id",
         element: <BlogDetails />,
       },
       {
-        path: "/newsletter",
+        path: "newsletter",
         element: <Newsletter />,
       },
     ]
   }
-]);
+],
+  {
+    basename: "task-6-adv",
+  }
+);
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>

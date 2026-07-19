@@ -46,7 +46,7 @@ export const blogPosts: BlogPost[] = [
         description: "How do you create compelling presentations that wow your colleagues and impress your managers?",
         author: "Olivia Rhye",
         date: "1 Jan 2023",
-        mainImage: "/task-6-adv/imgs/blog1.png",
+        mainImage: "/task-6-adv/assets/imgs/blog1.png",
         categories: [
             { name: "Design", color: "bg-purple-50 text-purple-700" },
             { name: "Research", color: "bg-indigo-50 text-indigo-700" },
@@ -59,7 +59,7 @@ export const blogPosts: BlogPost[] = [
         description: "Linear helps streamline software projects, sprints, tasks, and bug tracking. Here’s how to get...",
         author: "Phoenix Baker",
         date: "1 Jan 2023",
-        mainImage: "/task-6-adv/imgs/blog2.png",
+        mainImage: "/task-6-adv/assets/imgs/blog2.png",
         categories: [
             { name: "Design", color: "bg-sky-50 text-sky-700" },
             { name: "Research", color: "bg-pink-50 text-pink-700" }
@@ -71,7 +71,7 @@ export const blogPosts: BlogPost[] = [
         description: "The rise of RESTful APIs has been met by a rise in tools for creating, testing, and manag...",
         author: "Lana Steiner",
         date: "1 Jan 2023",
-        mainImage: "/task-6-adv/imgs/blog3.png",
+        mainImage: "/task-6-adv/assets/imgs/blog3.png",
         categories: [
             { name: "Design", color: "bg-emerald-50 text-emerald-700" },
             { name: "Research", color: "bg-pink-50 text-pink-700" }
@@ -83,7 +83,7 @@ export const blogPosts: BlogPost[] = [
         description: "A grid system is a design tool used to arrange content on a webpage. It is a series of vertical and horizontal lines that create a matrix of intersecting points, which can be used to align and organize page elements. Grid systems are used to create a consistent look and feel across a website, and can help to make the layout more visually appealing and easier to navigate.",
         author: "Olivia Rhye",
         date: "1 Jan 2023",
-        mainImage: "/task-6-adv/imgs/blog4.png",
+        mainImage: "/task-6-adv/assets/imgs/blog4.png",
         categories: [
             { name: "Design", color: "bg-purple-50 text-purple-700" },
             { name: "Interface", color: "bg-pink-50 text-pink-700" }
@@ -101,7 +101,7 @@ export const blogPosts: BlogPost[] = [
             },
             {
                 id: "sec-4-2",
-                sectionImage: "/task-6-adv/imgs/blog4-1.png",
+                sectionImage: "/task-6-adv/assets/imgs/blog4-1.png",
                 imageCaption: "Definition: A grid is made up of columns, gutters, and margins that provide a structure for the layout of elements on a page.",
                 paragraphs: [
                     {
@@ -138,7 +138,7 @@ export const blogPosts: BlogPost[] = [
             },
             {
                 id: "sec-4-3",
-                sectionImage: "/task-6-adv/imgs/blog4-2.png",
+                sectionImage: "/task-6-adv/assets/imgs/blog4-2.png",
                 imageCaption: "Three elements make up any grid: (1) columns, (2) gutters, and (3) margins.",
                 paragraphs: [
                     {
@@ -159,7 +159,7 @@ export const blogPosts: BlogPost[] = [
             },
             {
                 id: "sec-4-4",
-                sectionImage: "/task-6-adv/imgs/blog4-3.png",
+                sectionImage: "/task-6-adv/assets/imgs/blog4-3.png",
                 imageCaption: "The New York Times uses a hierarchical grid to achieve its newspaper-like reading experience. (We highlighted the columns in yellow, the gutters in blue, and the margins in purple.)",
                 paragraphs: [
                     {
@@ -176,7 +176,7 @@ export const blogPosts: BlogPost[] = [
             },
             {
                 id: "sec-4-5",
-                sectionImage: "/task-6-adv/imgs/blog4-4.png",
+                sectionImage: "/task-6-adv/assets/imgs/blog4-4.png",
                 imageCaption: "Ritual’s four-column grid makes scanning products easy. (We highlighted the columns in yellow, the gutters in blue, and the margins in purple.)",
                 paragraphs: [
                     {
@@ -193,7 +193,7 @@ export const blogPosts: BlogPost[] = [
             },
             {
                 id: "sec-4-6",
-                sectionImage: "/task-6-adv/imgs/blog4-5.png",
+                sectionImage: "/task-6-adv/assets/imgs/blog4-5.png",
                 imageCaption: "Behance’s design uses a modular grid, which allows users to easily browse. (We highlighted the columns in yellow, the gutters in blue, and the margins in purple.)",
                 paragraphs: [
                     {
@@ -210,7 +210,7 @@ export const blogPosts: BlogPost[] = [
             },
             {
                 id: "sec-4-7",
-                sectionImage: "/task-6-adv/imgs/blog4-6.png",
+                sectionImage: "/task-6-adv/assets/imgs/blog4-6.png",
                 imageCaption: "Breaking the grid produces a chaotic browsing experience for users. (We highlighted the columns in yellow, the gutters in blue, and the margins in purple.)",
                 paragraphs: [
                     {
@@ -238,7 +238,7 @@ export const blogPosts: BlogPost[] = [
             },
             {
                 id: "sec-4-8",
-                sectionImage: "/task-6-adv/imgs/blog4-7.png",
+                sectionImage: "/task-6-adv/assets/imgs/blog4-7.png",
                 imageCaption: "At the mobile size, Behance’s one-column grid (left) was reflowed into a four-column grid structure (right).",
                 paragraphs: [
                     {
@@ -263,7 +263,7 @@ export const blogPosts: BlogPost[] = [
             },
             {
                 id: "sec-4-9",
-                sectionImage: "/task-6-adv/imgs/blog4-8.png",
+                sectionImage: "/task-6-adv/assets/imgs/blog4-8.png",
                 imageCaption: "Easily set the number of columns, the gutter size, and margin size in Figma.",
                 paragraphs: [
                     {
@@ -275,7 +275,7 @@ export const blogPosts: BlogPost[] = [
             },
             {
                 id: "sec-4-10",
-                sectionImage: "/task-6-adv/imgs/blog4-9.png",
+                sectionImage: "/task-6-adv/assets/imgs/blog4-9.png",
                 imageCaption: "Content or elements should be placed within and across columns, not gutters.",
                 paragraphs: [
                     {
@@ -298,7 +298,7 @@ export const blogPosts: BlogPost[] = [
         description: "Like to know the secrets of transforming a 2-14 team into a 3x Super Bowl winning Dynasty?",
         date: "1 Jan 2023",
         author: "Alec Whitten",
-        mainImage: "/task-6-adv/imgs/blog5.png",
+        mainImage: "/task-6-adv/assets/imgs/blog5.png",
         categories: [
             { name: "Leadership", color: "bg-purple-50 text-purple-700" },
             { name: "Management", color: "bg-slate-50 text-slate-700" }
@@ -310,7 +310,7 @@ export const blogPosts: BlogPost[] = [
         description: "Mental models are simple expressions of complex processes or relationships.",
         date: "1 Jan 2023",
         author: "Demi WIlkinson",
-        mainImage: "/task-6-adv/imgs/blog6.png",
+        mainImage: "/task-6-adv/assets/imgs/blog6.png",
         categories: [
             { name: "Product", color: "bg-sky-50 text-sky-700" },
             { name: "Research", color: "bg-indigo-50 text-indigo-700" },
@@ -323,7 +323,7 @@ export const blogPosts: BlogPost[] = [
         description: "Introduction to Wireframing and its Principles. Learn from the best in the industry.",
         date: "1 Jan 2023",
         author: "Candice Wu",
-        mainImage: "/task-6-adv/imgs/blog7.png",
+        mainImage: "/task-6-adv/assets/imgs/blog7.png",
         categories: [
             { name: "Design", color: "bg-purple-50 text-purple-700" },
             { name: "Research", color: "bg-indigo-50 text-indigo-700" },
@@ -335,7 +335,7 @@ export const blogPosts: BlogPost[] = [
         description: "Collaboration can make our teams stronger, and our individual designs better.",
         date: "1 Jan 2023",
         author: "Natali Craig",
-        mainImage: "/task-6-adv/imgs/blog8.png",
+        mainImage: "/task-6-adv/assets/imgs/blog8.png",
         categories: [
             { name: "Design", color: "bg-purple-50 text-purple-700" },
             { name: "Research", color: "bg-indigo-50 text-indigo-700" },
@@ -347,7 +347,7 @@ export const blogPosts: BlogPost[] = [
         description: "JavaScript frameworks make development easy with extensive features and functionalities.",
         date: "1 Jan 2023",
         author: "Drew Cano",
-        mainImage: "/task-6-adv/imgs/blog9.png",
+        mainImage: "/task-6-adv/assets/imgs/blog9.png",
         categories: [
             { name: "Software Development", color: "bg-emerald-50 text-emerald-700" },
             { name: "Tools", color: "bg-pink-50 text-pink-700" },
@@ -360,7 +360,7 @@ export const blogPosts: BlogPost[] = [
         description: "Starting a community doesn’t need to be complicated, but how do you get started?",
         date: "1 Jan 2023",
         author: "Orlando Diggs",
-        mainImage: "/task-6-adv/imgs/blog10.png",
+        mainImage: "/task-6-adv/assets/imgs/blog10.png",
         categories: [
             { name: "Podcasts", color: "bg-purple-50 text-purple-700" },
             { name: "Customer Success", color: "bg-slate-50 text-slate-700" },
@@ -372,7 +372,7 @@ export const blogPosts: BlogPost[] = [
         description: "How do you create compelling presentations that wow your colleagues and impress your managers?",
         author: "Olivia Rhye",
         date: "1 Jan 2023",
-        mainImage: "/task-6-adv/imgs/blog1.png",
+        mainImage: "/task-6-adv/assets/imgs/blog1.png",
         categories: [
             { name: "Design", color: "bg-purple-50 text-purple-700" },
             { name: "Research", color: "bg-indigo-50 text-indigo-700" },
@@ -385,7 +385,7 @@ export const blogPosts: BlogPost[] = [
         description: "Linear helps streamline software projects, sprints, tasks, and bug tracking. Here’s how to get...",
         author: "Phoenix Baker",
         date: "1 Jan 2023",
-        mainImage: "/task-6-adv/imgs/blog2.png",
+        mainImage: "/task-6-adv/assets/imgs/blog2.png",
         categories: [
             { name: "Design", color: "bg-sky-50 text-sky-700" },
             { name: "Research", color: "bg-pink-50 text-pink-700" }
@@ -397,7 +397,7 @@ export const blogPosts: BlogPost[] = [
         description: "The rise of RESTful APIs has been met by a rise in tools for creating, testing, and manag...",
         author: "Lana Steiner",
         date: "1 Jan 2023",
-        mainImage: "/task-6-adv/imgs/blog3.png",
+        mainImage: "/task-6-adv/assets/imgs/blog3.png",
         categories: [
             { name: "Design", color: "bg-emerald-50 text-emerald-700" },
             { name: "Research", color: "bg-pink-50 text-pink-700" }
@@ -409,7 +409,7 @@ export const blogPosts: BlogPost[] = [
         description: "Like to know the secrets of transforming a 2-14 team into a 3x Super Bowl winning Dynasty?",
         date: "1 Jan 2023",
         author: "Alec Whitten",
-        mainImage: "/task-6-adv/imgs/blog5.png",
+        mainImage: "/task-6-adv/assets/imgs/blog5.png",
         categories: [
             { name: "Leadership", color: "bg-purple-50 text-purple-700" },
             { name: "Management", color: "bg-slate-50 text-slate-700" }
@@ -421,7 +421,7 @@ export const blogPosts: BlogPost[] = [
         description: "Mental models are simple expressions of complex processes or relationships.",
         date: "1 Jan 2023",
         author: "Demi WIlkinson",
-        mainImage: "/task-6-adv/imgs/blog6.png",
+        mainImage: "/task-6-adv/assets/imgs/blog6.png",
         categories: [
             { name: "Product", color: "bg-sky-50 text-sky-700" },
             { name: "Research", color: "bg-indigo-50 text-indigo-700" },
@@ -434,7 +434,7 @@ export const blogPosts: BlogPost[] = [
         description: "Introduction to Wireframing and its Principles. Learn from the best in the industry.",
         date: "1 Jan 2023",
         author: "Candice Wu",
-        mainImage: "/task-6-adv/imgs/blog7.png",
+        mainImage: "/task-6-adv/assets/imgs/blog7.png",
         categories: [
             { name: "Design", color: "bg-purple-50 text-purple-700" },
             { name: "Research", color: "bg-indigo-50 text-indigo-700" },
@@ -446,7 +446,7 @@ export const blogPosts: BlogPost[] = [
         description: "Collaboration can make our teams stronger, and our individual designs better.",
         date: "1 Jan 2023",
         author: "Natali Craig",
-        mainImage: "/task-6-adv/imgs/blog8.png",
+        mainImage: "/task-6-adv/assets/imgs/blog8.png",
         categories: [
             { name: "Design", color: "bg-purple-50 text-purple-700" },
             { name: "Research", color: "bg-indigo-50 text-indigo-700" },
@@ -458,7 +458,7 @@ export const blogPosts: BlogPost[] = [
         description: "JavaScript frameworks make development easy with extensive features and functionalities.",
         date: "1 Jan 2023",
         author: "Drew Cano",
-        mainImage: "/task-6-adv/imgs/blog9.png",
+        mainImage: "/task-6-adv/assets/imgs/blog9.png",
         categories: [
             { name: "Software Development", color: "bg-emerald-50 text-emerald-700" },
             { name: "Tools", color: "bg-pink-50 text-pink-700" },
@@ -471,7 +471,7 @@ export const blogPosts: BlogPost[] = [
         description: "Starting a community doesn’t need to be complicated, but how do you get started?",
         date: "1 Jan 2023",
         author: "Orlando Diggs",
-        mainImage: "/task-6-adv/imgs/blog10.png",
+        mainImage: "/task-6-adv/assets/imgs/blog10.png",
         categories: [
             { name: "Podcasts", color: "bg-purple-50 text-purple-700" },
             { name: "Customer Success", color: "bg-slate-50 text-slate-700" },
@@ -483,7 +483,7 @@ export const blogPosts: BlogPost[] = [
         description: "A grid system is a design tool used to arrange content on a webpage. It is a series of vertical and horizontal lines that create a matrix of intersecting points",
         author: "Olivia Rhye",
         date: "1 Jan 2023",
-        mainImage: "/task-6-adv/imgs/blog4-1.png",
+        mainImage: "/task-6-adv/assets/imgs/blog4-1.png",
         categories: [
             { name: "Design", color: "bg-purple-50 text-purple-700" },
             { name: "Interface", color: "bg-pink-50 text-pink-700" }
