@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+    --spacing: 1px;
+    --color-brand-dark: #090D1F;
+    --color-brand-gray: #667085;
+    --color-main-text: #1A1A1A;
+    --color-desc-text-dark: #C0C5D0;
+    --font-sans: 'Inter', sans-serif;
+    --animate-fade-in: fade-in 0.2s ease-out;
+}
+
+
+@layer utilities {
+    .text-main-text {
+        @apply text-main-text dark:text-white;
+    }
+}
+
+@layer utilities {
+    .text-brand-gray {
+        @apply text-brand-gray dark:text-desc-text-dark;
+    }
+}
