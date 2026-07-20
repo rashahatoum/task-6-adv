@@ -1,75 +1,42 @@
-# React + TypeScript + Vite
+# 🚀 Task 6: Modern Responsive Blog Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🎯 Overview
+A fully responsive, modern React blog application built with **Vite** and **TypeScript**. This project demonstrates advanced front-end architecture, utilizing **Redux Toolkit** for state management, **React Router (RouterProvider)** for navigation, and pure **Tailwind CSS** for styling and theming.
 
-Currently, two official plugins are available:
+## ✨ Core Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### 🌗 1. Native Dark & Light Mode
+- Implemented Dark/Light mode entirely using **Tailwind CSS** classes (`dark:` variant).
+- Zero external libraries or pure CSS files were used, keeping the bundle size light and the styling consistent.
 
-## React Compiler
+### 📱 2. Pixel-Perfect Responsiveness
+- The application layout adapts seamlessly to all screen sizes (Mobile, Tablet, and Desktop).
+- Built completely without standard `.css` files, relying strictly on Tailwind's utility classes for structural and responsive design.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🧠 3. Advanced State Management (Redux)
+- Managed the entire application state using **Redux Toolkit**.
+- The store holds a mock JSON array of **20 detailed blog posts**.
+- **Data Structure:** Each post is structured properly with a main image, categories, and content sections (each containing text and an image).
 
-## Expanding the ESLint configuration
+### 🔢 4. Custom Pagination System
+- Built a dynamic, custom pagination system from scratch.
+- **No external pagination libraries** were used. The logic (slicing arrays, calculating total pages, and tracking current pages) is entirely handled within the Redux reducers.
+- Features isolated state management, allowing different sections to paginate independently.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### 🏗️ 5. Clean Architecture & Component Design
+- Scalable folder structure and reusable React components.
+- Strong typed data passing using **TypeScript Props** and Interfaces.
+- Clean routing architecture using React Router's new `createBrowserRouter` (RouterProvider).
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 💻 Tech Stack
+- **Framework:** React 18 (via Vite)
+- **Language:** TypeScript
+- **State Management:** Redux Toolkit (RTK)
+- **Routing:** React Router DOM (v6)
+- **Styling:** Tailwind CSS
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 🚀 Getting Started
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
-```
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/rashahatoum/task-6-adv.git](https://github.com/rashahatoum/task-6-adv.git)

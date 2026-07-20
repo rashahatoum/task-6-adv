@@ -52,6 +52,75 @@ export const blogPosts: BlogPost[] = [
             { name: "Research", color: "bg-indigo-50 text-indigo-700" },
             { name: "Presentation", color: "bg-pink-50 text-pink-700" }
         ],
+        sections: [
+            {
+                id: "sec-1-1",
+                paragraphs: [
+                    {
+                        id: "p-1",
+                        text: "If you’ve been to New York City and have walked the streets, it is easy to figure out how to get from one place to another because of the grid system that the city is built on. Just as the predictability of a city grid helps locals and tourists get around easily, so do webpage grids provide a structure that guides users and designers alike. Because of their consistent reference point, grids improve page readability and scannability and allow people to quickly get where they need to go.",
+                    }
+                ],
+                imageCaption: "Definition: A grid is made up of columns, gutters, and margins that provide a structure for the layout of elements on a page."
+            },
+            {
+                id: "sec-1-2",
+                sectionImage: "/task-6-adv/assets/imgs/blog4-1.png",
+                imageCaption: "Definition: A grid is made up of columns, gutters, and margins that provide a structure for the layout of elements on a page.",
+                paragraphs: [
+                    {
+                        id: "p-2-1",
+                        text: "There are three common grid types used in websites and interfaces: column grid, modular grid, and hierarchical grid."
+                    },
+                    {
+                        id: "p-2-2",
+                        text: "Column grid involves dividing a page into vertical columns. UI elements and content are then aligned to these columns."
+                    },
+                    {
+                        id: "p-2-3",
+                        text: "Modular grid extends the column grid further by adding rows to it. This intersection of columns and rows make up modules to which elements and content are aligned. Modular grids are great for ecommerce and listing pages, as rows are repeatable to accommodate browsing.",
+                    },
+                    {
+                        id: "p-2-4",
+                        sectionTitle: "Breaking Down the Grid",
+                    },
+                    {
+                        id: "p-2-5",
+                        text: "Regardless of the type of grid you are using, the grid is made up of three elements: columns, gutters, and margins."
+                    },
+                    {
+                        id: "p-2-6",
+                        boldPrefix: "Columns:",
+                        text: " Columns take up most of the real estate in a grid. Elements and content are placed in columns. To adapt to any screen size, column widths are generally defined with percentages rather than fixed values."
+                    },
+                    {
+                        id: "p-2-7",
+                        boldPrefix: "Gutters:",
+                        text: " The gutter is the space between columns that separates elements and content from different columns. Gutter widths are fixed values but can change based on different breakpoints."
+                    }
+                ]
+            },
+            {
+                id: "sec-1-3",
+                sectionImage: "/task-6-adv/assets/imgs/blog4-2.png",
+                imageCaption: "Three elements make up any grid: (1) columns, (2) gutters, and (3) margins.",
+                paragraphs: [
+                    {
+                        id: "p-3-1",
+                        sectionTitle: "Examples of Grids in Use"
+                    },
+                    {
+                        id: "p-3-2",
+                        boldPrefix: "Example 1: Hierarchical Grid"
+                    },
+                    {
+                        id: "p-3-3",
+                        text: "Our first example is from The New York Times. This screen utilizes a hierarchical grid to create a newspaper-like reading experience. At desktop screen size, two main columns make up the hierarchical grid. The most important news story takes up the most space in the grid, the left column, followed by secondary and tertiary stories, which take up the smaller column and modules on the right.",
+                        linkText: "The New York Times",
+                        url: "https://www.nytimes.com/"
+                    },
+                ]
+            }]
     },
     {
         id: "2",
@@ -64,6 +133,42 @@ export const blogPosts: BlogPost[] = [
             { name: "Design", color: "bg-sky-50 text-sky-700" },
             { name: "Research", color: "bg-pink-50 text-pink-700" }
         ],
+        sections:[
+            {
+                id: "sec-2-1",
+                sectionImage: "/task-6-adv/assets/imgs/blog4-3.png",
+                imageCaption: "The New York Times uses a hierarchical grid to achieve its newspaper-like reading experience. (We highlighted the columns in yellow, the gutters in blue, and the margins in purple.)",
+                paragraphs: [
+                    {
+                        id: "p-1-1",
+                        boldPrefix: "Example 2: Column Grid"
+                    },
+                    {
+                        id: "p-1-2",
+                        text: "Our second example is from Ritual.com, a vitamin company. This design uses a column grid to create an attractive visual experience. At this screen size, four consistently sized columns make up the grid structure and elements are aligned to and within these columns. The gutters, the spaces in between the columns, are also consistently sized and help the user visually separate the different products. The margins are independently sized and are the same between the left and right sides.",
+                        linkText: "Ritual.com",
+                        url: "https://ritual.com/"
+                    },
+                ]
+            },
+            {
+                id: "sec-2-2",
+                sectionImage: "/task-6-adv/assets/imgs/blog4-4.png",
+                imageCaption: "Ritual’s four-column grid makes scanning products easy. (We highlighted the columns in yellow, the gutters in blue, and the margins in purple.)",
+                paragraphs: [
+                    {
+                        id: "p-2-1",
+                        boldPrefix: "Example 3: Modular Grid"
+                    },
+                    {
+                        id: "p-2-2",
+                        text: "Our third example is from Behance, a design library. The site’s design uses a modular grid to create a pleasant browsing experience. At desktop size, rows are made up of 4 consistently sized modules. Horizontal gutters are slightly thicker than vertical gutters and the margins are consistently sized on the left and right of the design. Like in previous example, the gutters visually separate each element.",
+                        linkText: "Behance",
+                        url: "https://www.behance.net/"
+                    },
+                ]
+            },
+        ]
     },
     {
         id: "3",
@@ -76,6 +181,53 @@ export const blogPosts: BlogPost[] = [
             { name: "Design", color: "bg-emerald-50 text-emerald-700" },
             { name: "Research", color: "bg-pink-50 text-pink-700" }
         ],
+        sections:[
+            {
+                id: "sec-3-1",
+                sectionImage: "/task-6-adv/assets/imgs/blog4-5.png",
+                imageCaption: "Behance’s design uses a modular grid, which allows users to easily browse. (We highlighted the columns in yellow, the gutters in blue, and the margins in purple.)",
+                paragraphs: [
+                    {
+                        id: "p-1-1",
+                        boldPrefix: "Example 4: Breaking the Grid"
+                    },
+                    {
+                        id: "p-1-2",
+                        text: "Our last example is Shrine from Google’s Material Studies. This design uses a column grid, as we can see based on the left navigation, which is 2 columns wide. Look closely and you will see that some product images settle to the margins, while others do not. Breaking the grid like this makes it challenging to focus or quickly scan product images and calls more attention to some products over others. It is okay to break the grid every so often, as long as you have a valid reason for it.",
+                        linkText: "Shrine from Google’s Material Studies",
+                        url: "https://m2.material.io/design/material-studies/shrine.html#product-architecture"
+                    },
+                ]
+            },
+            {
+                id: "sec-3-2",
+                sectionImage: "/task-6-adv/assets/imgs/blog4-6.png",
+                imageCaption: "Breaking the grid produces a chaotic browsing experience for users. (We highlighted the columns in yellow, the gutters in blue, and the margins in purple.)",
+                paragraphs: [
+                    {
+                        id: "p-2-1",
+                        boldPrefix: "Benefits of the Grid"
+                    },
+                    {
+                        id: "p-2-2",
+                        text: "Using a grid benefits both end users and the designers alike:",
+                        lists: [
+                            {
+                                "id": "list-3-2-1",
+                                "type": "unordered",
+                                "items": [
+                                    "Designers can quickly put together well-aligned interfaces.",
+                                    "Users can easily scan predictable grid-based interfaces.",
+                                    "A good grid is easy to adapt to various screen sizes and orientations. In fact, grid layouts are an essential component of responsive web design. Responsive design uses breakpoints to determine the screen size threshold at which the layout should change. For example, a desktop screen may have 12 grid columns, which may be stacked on mobile so that the resulting layout has only 4 columns."
+                                ],
+                                linkText: "responsive web design",
+                                url: "https://www.nngroup.com/articles/responsive-web-design-definition/"
+                            }
+                        ]
+                    },
+                ]
+            },
+        ]
     },
     {
         id: "4",
@@ -303,6 +455,42 @@ export const blogPosts: BlogPost[] = [
             { name: "Leadership", color: "bg-purple-50 text-purple-700" },
             { name: "Management", color: "bg-slate-50 text-slate-700" }
         ],
+        sections:[
+            {
+                id: "sec-5-1",
+                sectionImage: "/task-6-adv/assets/imgs/blog4-3.png",
+                imageCaption: "The New York Times uses a hierarchical grid to achieve its newspaper-like reading experience. (We highlighted the columns in yellow, the gutters in blue, and the margins in purple.)",
+                paragraphs: [
+                    {
+                        id: "p-1-1",
+                        boldPrefix: "Example 2: Column Grid"
+                    },
+                    {
+                        id: "p-1-2",
+                        text: "Our second example is from Ritual.com, a vitamin company. This design uses a column grid to create an attractive visual experience. At this screen size, four consistently sized columns make up the grid structure and elements are aligned to and within these columns. The gutters, the spaces in between the columns, are also consistently sized and help the user visually separate the different products. The margins are independently sized and are the same between the left and right sides.",
+                        linkText: "Ritual.com",
+                        url: "https://ritual.com/"
+                    },
+                ]
+            },
+            {
+                id: "sec-5-2",
+                sectionImage: "/task-6-adv/assets/imgs/blog4-4.png",
+                imageCaption: "Ritual’s four-column grid makes scanning products easy. (We highlighted the columns in yellow, the gutters in blue, and the margins in purple.)",
+                paragraphs: [
+                    {
+                        id: "p-2-1",
+                        boldPrefix: "Example 3: Modular Grid"
+                    },
+                    {
+                        id: "p-2-2",
+                        text: "Our third example is from Behance, a design library. The site’s design uses a modular grid to create a pleasant browsing experience. At desktop size, rows are made up of 4 consistently sized modules. Horizontal gutters are slightly thicker than vertical gutters and the margins are consistently sized on the left and right of the design. Like in previous example, the gutters visually separate each element.",
+                        linkText: "Behance",
+                        url: "https://www.behance.net/"
+                    },
+                ]
+            },
+        ]
     },
     {
         id: "6",
@@ -316,6 +504,36 @@ export const blogPosts: BlogPost[] = [
             { name: "Research", color: "bg-indigo-50 text-indigo-700" },
             { name: "Frameworks", color: "bg-orange-50 text-orange-700" }
         ],
+        sections:[            
+            {
+                id: "sec-6-1",
+                sectionImage: "/task-6-adv/assets/imgs/blog4-8.png",
+                imageCaption: "Easily set the number of columns, the gutter size, and margin size in Figma.",
+                paragraphs: [
+                    {
+                        id: "p-1-1",
+                        boldPrefix: "Always place content within columns, not gutters.",
+                        text: " The gutters should remain empty as you place elements on the grid in order to clearly separate and align content and elements."
+                    },
+                ]
+            },
+            {
+                id: "sec-6-2",
+                sectionImage: "/task-6-adv/assets/imgs/blog4-9.png",
+                imageCaption: "Content or elements should be placed within and across columns, not gutters.",
+                paragraphs: [
+                    {
+                        id: "p-2-1",
+                        boldPrefix: "Consider using an 8px grid system.",
+                        text: " For most common devices, the screen size in pixels is a multiple of 8. Keeping grid-component values at a multiple of 8 will generally make it easier to scale and implement a grid."
+                    },
+                    {
+                        id: "p-2-2",
+                        sectionTitle: "Conclusion",
+                        text: "Grids not only provide designers a structure on which to base layouts, but they also improve readability and scannability for end users. Use a good grid system that easily adapts to various screen sizes."
+                    },
+                ]
+            },]
     },
     {
         id: "7",
@@ -353,6 +571,42 @@ export const blogPosts: BlogPost[] = [
             { name: "Tools", color: "bg-pink-50 text-pink-700" },
             { name: "SaaS", color: "bg-rose-50 text-rose-700" },
         ],
+        sections:[
+            {
+                id: "sec-9-1",
+                sectionImage: "/task-6-adv/assets/imgs/blog4-3.png",
+                imageCaption: "The New York Times uses a hierarchical grid to achieve its newspaper-like reading experience. (We highlighted the columns in yellow, the gutters in blue, and the margins in purple.)",
+                paragraphs: [
+                    {
+                        id: "p-1-1",
+                        boldPrefix: "Example 2: Column Grid"
+                    },
+                    {
+                        id: "p-1-2",
+                        text: "Our second example is from Ritual.com, a vitamin company. This design uses a column grid to create an attractive visual experience. At this screen size, four consistently sized columns make up the grid structure and elements are aligned to and within these columns. The gutters, the spaces in between the columns, are also consistently sized and help the user visually separate the different products. The margins are independently sized and are the same between the left and right sides.",
+                        linkText: "Ritual.com",
+                        url: "https://ritual.com/"
+                    },
+                ]
+            },
+            {
+                id: "sec-9-2",
+                sectionImage: "/task-6-adv/assets/imgs/blog4-4.png",
+                imageCaption: "Ritual’s four-column grid makes scanning products easy. (We highlighted the columns in yellow, the gutters in blue, and the margins in purple.)",
+                paragraphs: [
+                    {
+                        id: "p-2-1",
+                        boldPrefix: "Example 3: Modular Grid"
+                    },
+                    {
+                        id: "p-2-2",
+                        text: "Our third example is from Behance, a design library. The site’s design uses a modular grid to create a pleasant browsing experience. At desktop size, rows are made up of 4 consistently sized modules. Horizontal gutters are slightly thicker than vertical gutters and the margins are consistently sized on the left and right of the design. Like in previous example, the gutters visually separate each element.",
+                        linkText: "Behance",
+                        url: "https://www.behance.net/"
+                    },
+                ]
+            },
+        ]
     },
     {
         id: "10",
@@ -365,6 +619,36 @@ export const blogPosts: BlogPost[] = [
             { name: "Podcasts", color: "bg-purple-50 text-purple-700" },
             { name: "Customer Success", color: "bg-slate-50 text-slate-700" },
         ],
+        sections:[            
+            {
+                id: "sec-10-1",
+                sectionImage: "/task-6-adv/assets/imgs/blog4-8.png",
+                imageCaption: "Easily set the number of columns, the gutter size, and margin size in Figma.",
+                paragraphs: [
+                    {
+                        id: "p-1-1",
+                        boldPrefix: "Always place content within columns, not gutters.",
+                        text: " The gutters should remain empty as you place elements on the grid in order to clearly separate and align content and elements."
+                    },
+                ]
+            },
+            {
+                id: "sec-10-2",
+                sectionImage: "/task-6-adv/assets/imgs/blog4-9.png",
+                imageCaption: "Content or elements should be placed within and across columns, not gutters.",
+                paragraphs: [
+                    {
+                        id: "p-2-1",
+                        boldPrefix: "Consider using an 8px grid system.",
+                        text: " For most common devices, the screen size in pixels is a multiple of 8. Keeping grid-component values at a multiple of 8 will generally make it easier to scale and implement a grid."
+                    },
+                    {
+                        id: "p-2-2",
+                        sectionTitle: "Conclusion",
+                        text: "Grids not only provide designers a structure on which to base layouts, but they also improve readability and scannability for end users. Use a good grid system that easily adapts to various screen sizes."
+                    },
+                ]
+            },]
     },
     {
         id: "11",
